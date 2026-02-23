@@ -29,7 +29,7 @@ myPromise
   .catch((error) => console.log(error));
 
 // ---------- Write File ----------
-fs.writeFile('file.txt', 'Hello World!', function (err) {
+fs.writeFile('file.txt', 'Hello World! node js project', function (err) {
   if (err) throw err;
   console.log('File saved!');
 
